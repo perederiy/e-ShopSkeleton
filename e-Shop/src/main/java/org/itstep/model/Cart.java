@@ -20,14 +20,14 @@ public class Cart {
 
 	@JsonProperty
 	@Id
-	@Column(name = "id")
+	@Column(name = "ID")
 	private Integer id;
 	
 	@ManyToOne(targetEntity = Account.class)
 	private Account account;
 	
 	@JsonProperty
-	@Column(name = "creation_time")
+	@Column(name = "CREATION_TIME")
 	private Long creationTime;
 	
 }

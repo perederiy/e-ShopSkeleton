@@ -22,7 +22,7 @@ public class WishList {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name="id")
+	@Column(name="ID")
 	@JsonProperty
 	private Integer id;
 	
